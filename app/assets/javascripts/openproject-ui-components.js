@@ -40,3 +40,6 @@
 //
 //= require angular
 //= require angular-ui-select2
+
+//= require ./angular/ui-components-app
+//= require_tree ./angular
