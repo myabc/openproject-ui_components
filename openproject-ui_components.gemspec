@@ -16,4 +16,6 @@ Gem::Specification.new do |s|
   s.files = Dir["{app,config,db,lib,vendor}/**/*"] + ["README.rdoc"]
 
   s.add_dependency "rails", "~> 3.2.16"
+  s.add_dependency 'angularjs-rails'
+  s.add_dependency 'angular-ui-select2-rails'
 end
